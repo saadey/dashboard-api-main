@@ -16,6 +16,9 @@ app.get('/ping', (req, res) => {
 app.get('/country', (req, res) => {
     res.send('<=INDIA=>');
 });
+app.get('/developer', (req, res) => {
+    res.send('Saad Ali is your developer ;)')
+});
 
 app.get('/ping', (req, res) => {
     res.send('PONG')
